@@ -69,7 +69,6 @@ const catalog = [
 
 const gallery = [
   "https://images.unsplash.com/photo-1500595046743-cd271d694d30?auto=format&fit=crop&w=900&q=80",
-  "https://images.unsplash.com/photo-1516467508483-a7212febe31a?auto=format&fit=crop&w=900&q=80",
   "https://images.unsplash.com/photo-1507103011901-e954d6ec0988?auto=format&fit=crop&w=900&q=80",
   "https://images.unsplash.com/photo-1596733430284-f7437764b1a9?auto=format&fit=crop&w=900&q=80",
   "https://images.unsplash.com/photo-1605000797499-95a51c5269ae?auto=format&fit=crop&w=900&q=80",
