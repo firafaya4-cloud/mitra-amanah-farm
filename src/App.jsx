@@ -2,7 +2,6 @@ import React from "react";
 import { createRoot } from "react-dom/client";
 import {
   MessageCircle,
-  Instagram,
   MapPin,
   Star,
   Scale,
@@ -126,9 +125,11 @@ function App() {
             <span className="badge">
               <Leaf size={16} /> Dari Farm Terpercaya untuk Ibadah yang Lebih Tenang
             </span>
+
             <h1>
               Qurban Mudah, <em>Aqiqah Berkah</em>
             </h1>
+
             <p>
               Swalayan Qurban & Aqiqah terpercaya dengan hewan sehat, proses amanah,
               dan pelayanan profesional.
@@ -170,6 +171,7 @@ function App() {
             alt="Farm"
           />
         </div>
+
         <div>
           <span className="eyebrow">Tentang Mitra Amanah Farm</span>
           <h2>Amanah dalam pelayanan, hangat seperti keluarga.</h2>
@@ -180,6 +182,7 @@ function App() {
             keluarga menjalankan ibadah dengan lebih mudah, tenang, dan penuh
             keberkahan.
           </p>
+
           <div className="mini-grid">
             {["Profesional", "Hangat", "Terpercaya", "Kekeluargaan"].map((item) => (
               <div key={item}>
@@ -233,6 +236,7 @@ function App() {
             src="https://images.unsplash.com/photo-1500937386664-56d1dfef3854?auto=format&fit=crop&w=900&q=80"
             alt="Program kebaikan"
           />
+
           <div>
             <span className="badge gold">Qurban Sekaligus Beramal</span>
             <h2>Berqurban hari ini, menebar manfaat lebih lama.</h2>
@@ -311,6 +315,7 @@ function App() {
               ))}
             </div>
           </div>
+
           <img
             src="https://images.unsplash.com/photo-1605000797499-95a51c5269ae?auto=format&fit=crop&w=900&q=80"
             alt="Sekolah qurban"
@@ -373,7 +378,7 @@ function App() {
               <Phone /> WhatsApp: 087738663009
             </p>
             <p>
-              <Instagram /> Instagram: @mitra.amanah.farm
+              <MessageCircle /> Instagram: @mitra.amanah.farm
             </p>
             <p>
               <MapPin /> Lokasi: Mitra Amanah Farm
